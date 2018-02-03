@@ -1,22 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Santiago Cortes Fernandez</title>
-    
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="author" content="Santiago Cortes Fernandez">
+    <meta name="description" content="Pagina personal de Santiago Cortes">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--Archivos CSS propios-->
+    <link href="css/main.css" rel="stylesheet">
 
 </head>
-<body>
-    
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<body>
+    <!--Barra de Navegacion: contiene Navbar y Breadcrumb-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="indexNavbarMenu">
+        <div class="container-fluid">
+            <!--Barra de navegacion-->
+            <div class="row">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">SC</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Skills</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Santiago's Info.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Email</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Barra Breadcrumbs-->
+            <div class="row">
+                <ol class="breadcrumb" id="indexBreadCrumb">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                </ol>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--Contenido Inicial: Jumbotron con una imagen y descripcion basica-->
+    <div class="jumbotron" id="homeIntroduction">
+        <div class="container">
+            <div class="col-xs-12 col-sm-4 col-md-6">
+                <img src="img/imagen_perfil.jpg" alt="Imagen de Santiago Cortes">
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-6">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+<footer>
+    <P class="text-center">Published <TIME DATETIME="2018-02-03">on February 03, 2018</TIME></P>
+</footer>
+
 </html>

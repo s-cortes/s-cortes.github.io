@@ -1,0 +1,12 @@
+body{
+    padding-top: 90px;
+}
+
+#indexNavbarMenu,#indexBreadCrumb{
+    margin-bottom: 0px;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
