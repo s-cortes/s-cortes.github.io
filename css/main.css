@@ -1,12 +1,64 @@
 body{
     padding-top: 90px;
-}
-
-#indexNavbarMenu,#indexBreadCrumb{
-    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .affix {
     top: 0;
     width: 100%;
     z-index: 9999 !important;
+}
+
+#indexNavbarMenu,#indexBreadCrumb{
+    margin-bottom: 0px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-size: 24px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.breadcrumb{
+    padding-left: 2px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+    font-size: 12px;
+}
+
+.container-fluid .jumbotron{
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.homeContainer{
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    height: 550px;
+}
+
+.homeContainer2{
+    background-color: turquoise;
+    border-radius: 10px;
+    height: inherit;
+}
+
+.thumbnail{
+    margin-bottom: 0%;
+}
+
+.imgIcon{
+    width: 64px;
+    height: 64px;
 }
