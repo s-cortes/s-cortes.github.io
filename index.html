@@ -2,119 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Santiago Cortes Fernandez</title>
-    <meta name="author" content="Santiago Cortes Fernandez">
-    <meta name="description" content="Pagina personal de Santiago Cortes">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 
-    <!--Archivos CSS propios-->
-    <link href="css/main.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Santigo Cortes Fernandez</title>
 </head>
 
 <body>
-    <!--Barra de Navegacion: contiene Navbar y Breadcrumb-->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Santiago C.</a>
 
-        <div class="container-fluid">
-            <!--Barra de navegacion-->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" 
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="navSeparator" id="indexNavbarMenu">
+        <div class="navbar-collapse collapse justify-content-md-center" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <!-- HOME -->
+                <li class="nav-item">
+                    <a href="#" id="homeView" class="nav-link">Home</a>
+                </li>
+                <!-- ABOUT ME -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropDownAboutMe" data-toggle="dropdown" 
+                        aria-haspopup="true" aria-expanded="false">About Me</a>
 
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Santiago Cortes</a>
-                </div>
-
-                <div class="collapse navbar-collapse">
-
-                    <ul class="nav navbar-nav">
-                        <!--Home-->
-                        <li class="active">
-                            <a href="#" id="homeView" class="navOption">Home</a>
-                        </li>
-                        <!--About-->
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                About
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#" id="timelineView" class="navOption">Timeline</a>
-                                </li>
-                                <li>
-                                    <a href="#" id="EducationView" class="navOption">Education</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#" id="StuffView" class="navOption">Stuff I Enjoy</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!--Skills-->
-                        <li>
-                            <a href="#" id="skillsView" class="navOption">Skills</a>
-                        </li>
-                        <!--Experience-->
-                        <li>
-                            <a href="#" id="experienceView" class="navOption">Experience</a>
-                        </li>
-                        <!--Projects-->
-                        <li>
-                            <a href="#" id="projectsView" class="navOption">Projects</a>
-                        </li>
-                        <!--Contact-->
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                Contact
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#" id="informationView" class="navOption">Santiago's Information</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#" id="emailView" class="navOption">Email</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--Barra Breadcrumbs-->
-
-            <div class="navSeparator" id="indexBreadCrumb">
-                <ol class="breadcrumb">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                </ol>
-            </div>
-
+                    <div class="dropdown-menu" aria-labelledby="dropDownAboutMe">
+                        <a href="" id="timelineView" class="dropdown-item">Timeline</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="" id="stuffView" class="dropdown-item">Stuff I Like</a>
+                    </div>
+                </li>
+                <!-- EXPERIENCE -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropDownExperience" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Experience</a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropDownExperience">
+                        <a href="" id="skillsView" class="dropdown-item">Skills</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="" id="proyectsView" class="dropdown-item">Projects</a>
+                    </div>
+                </li>
+                <!-- EDUCATION -->
+                <li class="nav-item">
+                    <a href="#" id="educationView" class="nav-link">Education</a>
+                </li>
+                <!-- CONTACT -->
+                <li class="nav-item">
+                    <a href="#" id="contactView" class="nav-link">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    
-    <div id="containerView">
-        
+    <div class="container-fluid" id="containerView">
+
     </div>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Manejador del menu-->
+    <!-- Optional JavaScript -->
     <script src="js/menuManager.js"></script>
+    
 </body>
 
 </html>
