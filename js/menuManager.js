@@ -14,3 +14,4 @@ $(".nav-link, .dropdown-item").click(function (eventData) {
         $(containerView).load(elementId);
     }
 });
+

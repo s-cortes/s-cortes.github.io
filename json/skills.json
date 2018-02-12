@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Java",
+        "skillLevel":70
+    },
+    {
+        "name": "Python",
+        "skillLevel": 25
+    },
+    {
+        "name": "Javascript",
+        "skillLevel": 65
+    },
+    {
+        "name": "AngularJs",
+        "skillLevel": 50
+    },
+    {
+        "name": "Standart Query Language",
+        "skillLevel": 65
+    }
+]

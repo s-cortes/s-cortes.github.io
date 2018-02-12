@@ -1,8 +1,41 @@
 body{
     padding-top: 60px;
+    padding-bottom: 20px;
 }
+.jumbotron{
+    padding: 20px 20px 20px 20px;
+}
+
+#profileImage{
+    width: 25%;
+}
+
 .carousel-inner > .carousel-item > img, 
 .carousel-inner > .carousel-item > a > img{
-width: 100%; 
-margin: auto;
+    width: 100%; 
+    margin: auto;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+.card-subtitle{
+    color: #77b8fd;
+}
+.card:hover{
+    box-shadow: 6px 6px #cecccc;
+    background-color:#0069d9;
+    color: rgb(242, 255, 255);
+}
+.btn-primary:hover{
+    background-color:#77b8fd;
+    color: black;
+}
+.card-img{
+    width: auto !important;
+}
+
+.education-button{
+    margin-right: 20px !important;
+    margin-bottom: 10px !important;
 }

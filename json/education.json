@@ -1,0 +1,62 @@
+[
+    {
+        "description":"Favorite courses: Design & Inovation in Engineering, Theory of Engineering Lidership",
+        "location":"Bogota, Colombia",
+        "startingYear":"2018",
+        "finishingYear":"Present",
+        "institution":{
+            "name":"Bernard Gordon with Massachusetts Institute of Technology - Los Andes University",
+            "url":"https://gelp.mit.edu/",
+            "image":"img/institutions/GEL_MIT_logo.png",
+            "faculty": {
+                "name": "Eduacion Continuada Uniandes",
+                "url": "https://educacioncontinuada.uniandes.edu.co"
+            }
+        }
+    },
+    {
+        "description": "Favorite courses: Transactional Systems, Data Structures, TI in Organizations, Business Architecture, Business Intelligence, Software Development in Groups",        
+        "location": "Bogota, Colombia",
+        "startingYear": "2015",
+        "finishingYear": "Present",
+        "institution": {
+            "name": "Los Andes University",
+            "url": "https://uniandes.edu.co/en",
+            "image": "img/institutions/University_Andes.png",
+            "faculty": {
+                "name": "Faculty of Engineering - Systems and Compuuting Engineering Engineering",
+                "url": "https://sistemas.uniandes.edu.co/es/"
+            }
+        }
+    },
+    {
+        "description": "Favorite courses: Optimization Principles, Consumer Theory, Investment Desition Analysis",
+        "location": "Bogota, Colombia",
+        "startingYear": "2015",
+        "finishingYear": "Present",
+        "institution": {
+            "name": "Los Andes University",
+            "url": "https://uniandes.edu.co/en",
+            "image": "img/institutions/University_Andes.png",
+            "faculty": {
+                "name":"Faculty of Engineering - Industrial Engineering Engineering",
+                "url":"https://industrial.uniandes.edu.co/es/"
+            }
+        }
+    },
+    {
+        "description": "Favorite courses: Mathematics, Spanish literature, Music, Computer Science",
+        "location": "Bogota, Colombia",
+        "startingYear": "2000",
+        "finishingYear": "2015",
+        "institution": {
+            "name": "Rochester School",
+            "url": "http://rochester.edu.co/",
+            "image": "img/institutions/Rochester_logo.png",
+            "faculty": {
+                "name": "",
+                "url": ""
+            }
+        }
+    }
+]
