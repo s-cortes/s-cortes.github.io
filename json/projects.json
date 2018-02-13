@@ -1,0 +1,53 @@
+[
+    {
+        "name": "FestivAndes",
+        "description": "Transactional application used to handle the business activities of a theater festival, such as ticket selling and logistical operations.",
+        "role": "Developer",
+        "groupSize": "2",
+        "technologies": "JDBC, Oracle Data Base, WildFly 10.x, Rabbit MQ",
+        "languages": "Java, SQL",
+        "year": "2017",
+        "display":"timeline-regular"
+    },
+    {
+        "name": "Habitaciones",
+        "description": "Web application used to coordinate transactional operations for renting, rooms, houses and apartments. ",
+        "role": "Team Planner & Developer",
+        "groupSize": "5",
+        "technologies": "JPA, JAX-RS, Glassfish, Maven, Jenkins, JQuery",
+        "languages": "Java, SQL, Javascript, AngularJs",
+        "year": "2017",
+        "display": "timeline-inverted"
+    },
+    {
+        "name": "AMVA - Mapa de Riesgos Quimicos",
+        "description": "Web application for the management and assesment of Chemical industries which presented a potential risk for the community, by using geografical visualizations and constructing dynamical queries.",
+        "role": "Developer",
+        "groupSize": "4",
+        "technologies": "ArcGIS, H2DB, Oracle DB",
+        "languages": "Java, Javascript, SQL, AngularJs",
+        "year":"2017",
+        "display": "timeline-regular"
+    },
+    {
+        "name": "Minning Management",
+        "description": "IoT application for the health, security and eviromental management of a Colombian carbon mine.",
+        "role": "Developer",
+        "groupSize": "6",
+        "technologies": "Cassandra DB, MongoBD, Kafka, Node-Red, JQuery, Web sockets, ",
+        "languages": "Java, SQL, Python, Javascript, AngularJs",
+        "year": "2017",
+        "display": "timeline-inverted"
+    },
+    {
+        "name": "JDB & RESTful Application Tutorial",
+        "description": "Tutorial used to teach students how to create a web application using REST protocols and a Java Data Base Conections.",
+        "role": "Team Leader & Developer",
+        "groupSize": "2",
+        "technologies": "Oracle DB",
+        "languages": "Java, SQL",
+        "year": "2018",
+        "display": "timeline-regular"
+    }
+    
+]

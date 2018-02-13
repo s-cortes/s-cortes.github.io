@@ -1,4 +1,5 @@
 const view = "View";
+const scripts = "#customScripts";
 let containerView = "#containerView";
 let vistaActual = "homeView";
 
@@ -9,10 +10,13 @@ $(".item-displayer").click(function (eventData) {
     
     if ((elementId.indexOf(view) !== -1) && (vistaActual !== elementId)) {
         vistaActual = elementId;
-        elementId = ("html/".concat(elementId)).concat(".html");
-        $(containerView).empty();
-        $(containerView).load(elementId);
         
+        $(containerView).empty();
+        $(containerView).load(("html/".concat(elementId)).concat(".html"));
+        
+        $.getScript(("js/".concat(elementId)).concat(".js"), function (params) {
+            console.log("script [" + elementId + "] ha sido cargado");
+        })
     }
 });
 
