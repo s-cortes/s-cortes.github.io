@@ -20,7 +20,7 @@ con el fin de poner en práctica las habilidades de contrucción de archivos HTM
 * Utilizar herramientas tal como JQuery para realizar tareas de manera dinámica.
 
 ### Componentes
-Este repositorio cuenta con un archivo principal ([index.html](../index.html)), en el cual se establecen las librerías y dependencias a utilizar.
+Este repositorio cuenta con un archivo principal index.html, en el cual se establecen las librerías y dependencias a utilizar.
 En este caso, se utilizaron las libreías externas:
 
 * JQuery v.3.x
@@ -32,5 +32,5 @@ Con respecto a la estrucutra del resto del repositorio, se crearon carpetas para
 
 ### Despliegue
 
-Para desplegar la página web en el browser, solamente es necesario ingresar la URL [s-cortes.github.io](s-cortes.github.io).
+Para desplegar la página web en el browser, solamente es necesario ingresar la URL [s-cortes.github.io](https://s-cortes.github.io/).
 Si se desea utilizar un servidor para el despliegue, se recomienda utilizar http-server.
