@@ -4,7 +4,7 @@ $.getJSON("json/skills.json", function (data) {
       .addClass("SkillTitle")
       .text(obj.name);
     var barra = $("<div>")
-      .addClass("progress-bar skill-text")
+      .addClass("progress-bar")
       .attr("id", obj.name)
       .attr("role", "progressbar")
       .attr("aria-valuemin", "0")

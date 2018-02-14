@@ -2,7 +2,10 @@ const view = "View";
 let containerView = "#containerView";
 let vistaActual = "homeView";
 
-$(containerView).load(("html/".concat(vistaActual)).concat(".html"));
+$(containerView).load(("html/".concat(vistaActual)).concat(".html"),function () {
+  $.getScript(("js/".concat(vistaActual)).concat(".js"));
+});
+
 
 $(".item-displayer").click(function (eventData) {
   var elementId = String(eventData.target.id);

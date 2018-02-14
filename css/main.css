@@ -1,5 +1,5 @@
 body{
-    padding-top: 56px;
+    padding-top: 70px;
     padding-bottom: 5px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #ffffff;
@@ -133,3 +133,18 @@ body{
     color: rgba(34, 104, 179, 0.98);
 }
 
+.progress-bar{
+    -webkit-animation-name: progressBar;
+    animation-name: progressBar;    
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes progressBar {
+    from{width: 0%;}
+}
+
+/* Standard syntax */
+@keyframes progressBar {
+    from{width: 0%;}
+}

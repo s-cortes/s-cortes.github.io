@@ -1,0 +1,22 @@
+[
+  {
+    "src": "img/imagen1.jpg",
+    "alt": "Santiago doing social services (Right)",
+    "active":"active"
+  },
+  {
+    "src": "img/imagen2.jpg",
+    "alt": "Santiago with friends (Middle)",
+    "active": ""
+  },
+  {
+    "src": "img/imagen3.jpg",
+    "alt": "Santiago with friends in Cancun (Middle)",
+    "active": ""
+  },
+  {
+    "src": "img/imagen4.jpg",
+    "alt": "Santiago with friends at a presentation (Right)",
+    "active": ""
+  }
+]
