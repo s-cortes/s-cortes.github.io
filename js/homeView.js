@@ -1,3 +1,4 @@
+/* global $ */
 "use strict";
 $.getJSON("json/aboutImages.json", function (data) {
   $("#aboutMeCarousel").append(data.map(function (obj) {
