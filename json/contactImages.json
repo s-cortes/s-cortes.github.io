@@ -1,0 +1,22 @@
+[
+  {
+    "href": "https://www.facebook.com/scortes1296",
+    "src": "img/Brands/Facebook/facebook-logo.png",
+    "alt": "Facebooks logo used as a hiperlink to reach Santiago's Facebook account"
+  },
+  {
+    "href": "https://github.com/s-cortes",
+    "src": "img/Brands/GitHub/GitHub-logo.png",
+    "alt": "Github's logo used as a hiperlink to reach Santiago's Github account"
+  },
+  {
+    "href": "https://twitter.com/SantiagoCF96",
+    "src": "img/Brands/Twitter/twitter-logo.png",
+    "alt": "Twitter's logo used as a hiperlink to reach Santiago's Twitter account"
+  },
+  {
+    "href": "www.linkedin.com/in/santiago-cortes-fernandez-3263ba159",
+    "src": "img/Brands/LinkedIn/linkedin-logo.png",
+    "alt": "LinkedIn's logo used as a hiperlink to reach Santiago's LinkedIn account"
+  }
+]

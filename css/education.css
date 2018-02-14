@@ -1,0 +1,23 @@
+.card{
+    margin-bottom: 15px;
+}
+.card-subtitle{
+    color: #77b8fd;
+}
+.card:hover{
+    box-shadow: 6px 6px #cecccc;
+    background-color:#0069d9;
+    color: rgb(242, 255, 255);
+}
+.btn-primary:hover{
+    background-color:#77b8fd;
+    color: black;
+}
+.card-img{
+    width: auto !important;
+}
+
+.education-button{
+    margin-right: 20px !important;
+    margin-bottom: 10px !important;
+}

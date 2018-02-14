@@ -1,40 +1,49 @@
 <!-- CONTACT -->
 
-<div class="container" id="contactDisplay">
+<div class="container-fluid" id="contactDisplay">
 
-    <div class="title-section text-center">
-        <h1>Contact Me</h1>
-    </div>
-
-    <div class="jumbotron">
-        <div class="subtitle-section">
-            <h2>Send Me an Email</h1>
-        </div>
-        <form action="mailto:s.cortes@uniandes.edu.co" method="POST" class>
-
-            <div class="row">
-
-                <div class="col-md-4 form-group">
-                    <input type="text" class="form-control" placeholder="Name" required="">
-                    <br>
-                    <input type="text" class="form-control" placeholder="What's this mail About?"  required="">
-                    <br>
-                    <button type="submit" class="btn btn-primary submit-btn w-100">SEND EMAIL</button>
-                </div>
-
-                <div class="col-md-8 form-group">
-                    <input type="text" class="form-control" id="message" name="message" placeholder="Tell me all about it" required=" "
-                        data-validation-required-message="">
-                     
-                </div>  
-            </div>
-        </form>
-    </div>
-
-    <div class="jumbotron">
-        <div class="subtitle-section">
-            <h2>Yo can find me here aswell!</h1>
-        </div>
-    </div>
     
+
+    <div class="jumbotron">
+    
+        <div class="text-center">
+            <h1 class="title-section">Contact Information</h1>
+        </div>
+        
+        <div id="emailForm">
+            <div class="subtitle-section">
+                <h2>Send Me an Email</h2>
+                <hr/>
+            </div>
+            <form action="https://formspree.io/santiago.cortes0@gmail.com" method="POST" target="_blank" class>
+    
+                <div class="row">
+                    <div class="col-md-4 form-group">
+                        <input type="text" name="name" class="form-control text-center contact-form" placeholder="Name" required=""/>
+                        <br/>
+                        <input type="text" name="-replyto" class="form-control text-center contact-form" placeholder="Email"  required=""/>
+                        <br/>
+                        <input type="text" name="_subject" class="form-control text-center contact-form" placeholder="What's this mail About?" required=""/>
+                        <br/>
+                        <button type="submit" id="contactSubmit" class="btn btn-primary submit-btn w-100">SEND EMAIL</button>
+                        <input type="hidden" name="_next" value="https://s-cortes.github.io/">
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <input type="hidden" name="_format" value="plain" />
+                    </div>
+    
+                    <div class="col-md-8 form-group">
+                        <textarea class="form-control contact-form" placeholder="Tell me all about it" id="message" rows="6" cols="40" 
+                            required=" " data-validation-required-message=""></textarea>
+                         
+                    </div>  
+                </div>
+            </form>
+        </div>
+        <hr/>
+        <div class="subtitle-section text center">
+            <h2>Yo can find me here aswell!</h1> 
+                <div class="row" id="contactlist">
+                </div>
+        </div>
+    </div>
 </div>

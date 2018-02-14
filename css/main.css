@@ -1,14 +1,92 @@
 body{
-    padding-top: 60px;
-    padding-bottom: 20px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif
+    padding-top: 56px;
+    padding-bottom: 5px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #ffffff;
 }
+
+.item-displayer{
+    font-size: 1.6rem;
+}
+
+.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
 .jumbotron{
     padding: 20px 20px 20px 20px;
 }
 
+.homeDisplay{
+    margin-top: 20%;
+}
+
+#homeJumbo{
+    background-color:#007bff;;
+    border-radius: 0%;
+}
+
+#homeTitle{
+    color: #ffffff;
+    font-size: 5rem;
+    -webkit-animation-name: homeTitleAnimation;
+    animation-name: homeTitleAnimation;    
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes homeTitleAnimation {
+    from{
+        color: #007bff;
+        font-size: 1.5rem;
+    }
+    to{
+        color: #ffffff;
+        font-size: 5rem;
+    }
+}
+
+/* Standard syntax */
+@keyframes homeTitleAnimation {
+    from{ color: #007bff; font-size: 1.5rem; }
+    to{ color: #ffffff; font-size: 5rem; }
+}
+
+#homeSubtitle{
+    color: #ffffff;
+    font-size: 2.5rem;
+    -webkit-animation-name: homeSubtitleAnimation;
+    animation-name: homeSubtitleAnimation;    
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+}
+
+@-webkit-keyframes homeSubtitleAnimation {
+    0% { color: #007bff; font-size: 0.5rem; }
+    50% { color: #007bff; font-size: 0.5rem; }
+    100% { color: #ffffff; font-size: 2.5rem; }
+}
+
+/* Standard syntax */
+@keyframes homeSubtitleAnimation {
+    0% { color: #007bff; font-size: 0.5rem; }
+    50% { color: #007bff; font-size: 0.5rem; }
+    100% { color: #ffffff; font-size: 2.5rem; }
+}
+
+.home-introduction{
+    color: #ffffff;
+}
+.home-introduction > a{
+    color: #00f1ff;
+    font-size: 1.4rem;
+}
+
+
 #profileImage{
-    width: 25%;
+    width: auto;
+    vertical-align: middle !important;
 }
 
 .carousel-inner > .carousel-item > img, 
@@ -18,29 +96,40 @@ body{
 }
 .carousel-control-next,
 .carousel-control-prev{
-    background:rgba(6, 43, 121, 0.623);
+    background:rgba(9, 57, 160, 0.562);
 }
 
-.card{
-    margin-bottom: 15px;
-}
-.card-subtitle{
-    color: #77b8fd;
-}
-.card:hover{
-    box-shadow: 6px 6px #cecccc;
-    background-color:#0069d9;
-    color: rgb(242, 255, 255);
-}
-.btn-primary:hover{
-    background-color:#77b8fd;
-    color: black;
-}
-.card-img{
-    width: auto !important;
+.progress{
+    background-color: white;
+    height: 2rem;
+    font-size: 1.45rem;
 }
 
-.education-button{
-    margin-right: 20px !important;
-    margin-bottom: 10px !important;
+.title-section{
+    margin-top: 20px;
+    font-size: 4rem;
+    color: rgba(0, 65, 134, 0.98);
+    -webkit-animation-name: titleAnimation;
+    animation-name: titleAnimation;    
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s; 
+    text-align: center;
 }
+
+@-webkit-keyframes titleAnimation {
+    from{color: rgba(255, 255, 255, 0.39);}
+    to{color: rgba(0, 65, 134, 0.98);}
+}
+
+/* Standard syntax */
+@keyframes titleAnimation {
+    from{color: rgba(255, 255, 255, 0.39);}
+    to{color: rgba(0, 65, 134, 0.98);}
+}
+
+.subtitle-section{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    color: rgba(34, 104, 179, 0.98);
+}
+
