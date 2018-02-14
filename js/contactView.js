@@ -1,3 +1,5 @@
+
+"use strict";
 $.getJSON("json/contactImages.json", function (data) {
   $("#contactlist").append(data.map(function (obj) {
     var imagen = $("<img>")
@@ -17,6 +19,7 @@ $.getJSON("json/contactImages.json", function (data) {
   }));
 });
 
+"use strict";
 $("#contactSubmit").click(function( ) {
   setTimeout(() => {
     $(".contact-form").each(function () {

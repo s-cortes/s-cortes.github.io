@@ -1,3 +1,5 @@
+
+"use strict";
 var margin = { top: 20, right: 90, bottom: 30, left: 90 },
   width = 660 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;

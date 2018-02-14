@@ -1,3 +1,4 @@
+"use strict";
 $.getJSON("json/education.json", function (data) {
   $("#contentList").append(data.map(function (obj) {
     var titulo = $("<h5>")
@@ -37,4 +38,5 @@ $.getJSON("json/education.json", function (data) {
       .append(row);
   }));
 });
+"use strict";
 $(".card-img").css("width", "");
