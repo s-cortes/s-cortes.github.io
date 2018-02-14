@@ -1,3 +1,4 @@
+/* global $ */
 "use strict";
 $.getJSON("json/skills.json", function (data) {
   $("#skillsList").append(data.map(function (obj) {
