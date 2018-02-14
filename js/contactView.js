@@ -1,4 +1,4 @@
-
+/* global $ */
 "use strict";
 $.getJSON("json/contactImages.json", function (data) {
   $("#contactlist").append(data.map(function (obj) {
