@@ -1,3 +1,4 @@
+/* global $ */ 
 "use strict";
 $.getJSON("json/projects.json", function (data) {
   $("#timelineProjects").append(data.map(function (obj) {
